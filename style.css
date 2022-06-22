@@ -1,0 +1,246 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/images/p6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+.header{
+    display: flex;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-icon{
+    height: 70px;
+    margin-top:5px ;
+    color: white;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    width: 100%;
+}
+
+
+.name{
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 0.04em;
+    width: 70%;
+    margin-left: 150px;
+    line-height: 70px;
+}
+.line{
+
+    border: 1px solid hotpink;
+    border-radius: 20px;
+    width: 5%;
+    color: hotpink;
+    background-color: hotpink;
+    margin-top: 34px;
+    position: absolute;
+    margin-left: 150px;
+
+}
+
+
+.desc{
+ 
+    font-size: 20px;
+    color: white;
+    margin-left: 230px;
+    margin-top: 20px;
+    width: 42%;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 0.20em;
+
+
+}
+
+.right-sec{
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+
+.about {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.315) ;
+    border-radius: 20px;   
+    padding-top: 10px;
+}
+.about a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+ ul li::before{
+    
+    content: "\2022";
+    color: hotpink;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 20px;
+}
+
+.sub{
+    font-size: 12px;
+    letter-spacing: normal;
+    color: rgb(190, 190, 190);
+    line-height: 1px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.projects{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.315) ;
+    border-radius: 10px;   
+    padding-top: 10px;
+    margin-top: 10px;
+
+}
+
+.projects a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub2{
+    font-size: 12px;
+    letter-spacing: normal;
+    color: rgb(190, 190, 190);
+    line-height: 1px;
+    text-transform: none;
+    font-weight: normal;
+}
+
+.contact{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
+    font-size: 14px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.315) ;
+    border-radius: 10px;   
+    padding-top: 10px;
+    margin-top: 10px;
+    visibility: hidden;
+
+}
+
+.contact a{
+    text-decoration: none;
+    color: white;
+}
+
+.sub3{
+    font-size: 12px;
+    letter-spacing: normal;
+    color: rgb(190, 190, 190);
+    line-height: 1px;
+    text-transform: none;
+    font-weight: normal;
+
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    color: white;
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 50px;
+    height: 100px;
+}
+.fllow{
+    /* border-right: 3px solid white; */
+    padding-right:10px ;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+    
+}
+
+
+.social a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.social a:hover{
+    transition: 3s ease;
+    color: palevioletred; 
+
+}
+
+.about:hover{
+    transition: 3s ease;
+    background-color: rgba(0, 0, 0, 0.671);
+    
+}
+
+.projects:hover{
+    transition: 3s ease;
+    background-color: rgba(0, 0, 0, 0.671);
+
+}
+
+.contact:hover{
+    transition: 3s ease;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+
+
+
+
+
+    
