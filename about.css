@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/p1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+.header{
+    display: flex;
+    color: white;
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-icon{
+    height: 70px;
+    margin-top:5px ;
+    color: white;
+}
+
+.body{
+    margin-left: 100px;
+    margin-top: 80px;
+    color: white;
+}
+
+.para1{
+    font-size: 25px;
+    font-weight: bold;
+    color: hotpink;
+    letter-spacing: 0.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.para2{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    width: 90%;
+    border-bottom: 3px double green;
+}
+
+.lang{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+
+
+.one{
+    color: chartreuse;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.two{
+    color: fuchsia;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.three{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+
+}
